@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 import unittest
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
 class AJIOTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
